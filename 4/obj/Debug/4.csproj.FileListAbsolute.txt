@@ -1,0 +1,6 @@
+C:\Users\smirnov.vv\source\repos\4\bin\Debug\4.exe
+C:\Users\smirnov.vv\source\repos\4\bin\Debug\4.pdb
+C:\Users\smirnov.vv\source\repos\4\obj\Debug\4.csprojAssemblyReference.cache
+C:\Users\smirnov.vv\source\repos\4\obj\Debug\4.csproj.CoreCompileInputs.cache
+C:\Users\smirnov.vv\source\repos\4\obj\Debug\4.exe
+C:\Users\smirnov.vv\source\repos\4\obj\Debug\4.pdb
