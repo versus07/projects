@@ -1,0 +1,6 @@
+C:\Users\smirnov.vv\source\repos\HW_1\bin\Debug\HW_1.exe
+C:\Users\smirnov.vv\source\repos\HW_1\bin\Debug\HW_1.pdb
+C:\Users\smirnov.vv\source\repos\HW_1\obj\Debug\HW_1.csprojAssemblyReference.cache
+C:\Users\smirnov.vv\source\repos\HW_1\obj\Debug\HW_1.csproj.CoreCompileInputs.cache
+C:\Users\smirnov.vv\source\repos\HW_1\obj\Debug\HW_1.exe
+C:\Users\smirnov.vv\source\repos\HW_1\obj\Debug\HW_1.pdb
