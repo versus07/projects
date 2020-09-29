@@ -1,0 +1,6 @@
+C:\Users\smirnov.vv\source\repos\HW_3\bin\Debug\HW_3.exe
+C:\Users\smirnov.vv\source\repos\HW_3\bin\Debug\HW_3.pdb
+C:\Users\smirnov.vv\source\repos\HW_3\obj\Debug\HW_3.csprojAssemblyReference.cache
+C:\Users\smirnov.vv\source\repos\HW_3\obj\Debug\HW_3.csproj.CoreCompileInputs.cache
+C:\Users\smirnov.vv\source\repos\HW_3\obj\Debug\HW_3.exe
+C:\Users\smirnov.vv\source\repos\HW_3\obj\Debug\HW_3.pdb
