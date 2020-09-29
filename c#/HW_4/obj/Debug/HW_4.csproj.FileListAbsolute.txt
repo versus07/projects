@@ -1,0 +1,6 @@
+C:\Users\smirnov.vv\source\repos\HW_4\bin\Debug\HW_4.exe
+C:\Users\smirnov.vv\source\repos\HW_4\bin\Debug\HW_4.pdb
+C:\Users\smirnov.vv\source\repos\HW_4\obj\Debug\HW_4.csprojAssemblyReference.cache
+C:\Users\smirnov.vv\source\repos\HW_4\obj\Debug\HW_4.csproj.CoreCompileInputs.cache
+C:\Users\smirnov.vv\source\repos\HW_4\obj\Debug\HW_4.exe
+C:\Users\smirnov.vv\source\repos\HW_4\obj\Debug\HW_4.pdb
