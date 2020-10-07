@@ -1,0 +1,6 @@
+C:\Users\smirnov.vv\source\repos\NotUniqInArray\bin\Debug\NotUniqInArray.exe
+C:\Users\smirnov.vv\source\repos\NotUniqInArray\bin\Debug\NotUniqInArray.pdb
+C:\Users\smirnov.vv\source\repos\NotUniqInArray\obj\Debug\NotUniqInArray.csprojAssemblyReference.cache
+C:\Users\smirnov.vv\source\repos\NotUniqInArray\obj\Debug\NotUniqInArray.csproj.CoreCompileInputs.cache
+C:\Users\smirnov.vv\source\repos\NotUniqInArray\obj\Debug\NotUniqInArray.exe
+C:\Users\smirnov.vv\source\repos\NotUniqInArray\obj\Debug\NotUniqInArray.pdb
