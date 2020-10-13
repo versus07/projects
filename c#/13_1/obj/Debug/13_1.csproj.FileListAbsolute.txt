@@ -1,0 +1,6 @@
+C:\Users\smirnov.vv\source\repos\13_1\bin\Debug\13_1.exe
+C:\Users\smirnov.vv\source\repos\13_1\bin\Debug\13_1.pdb
+C:\Users\smirnov.vv\source\repos\13_1\obj\Debug\13_1.csprojAssemblyReference.cache
+C:\Users\smirnov.vv\source\repos\13_1\obj\Debug\13_1.csproj.CoreCompileInputs.cache
+C:\Users\smirnov.vv\source\repos\13_1\obj\Debug\13_1.exe
+C:\Users\smirnov.vv\source\repos\13_1\obj\Debug\13_1.pdb
