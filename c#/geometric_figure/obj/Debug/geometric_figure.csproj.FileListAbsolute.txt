@@ -1,0 +1,6 @@
+C:\Users\smirnov.vv\source\repos\geometric_figure\bin\Debug\geometric_figure.exe
+C:\Users\smirnov.vv\source\repos\geometric_figure\bin\Debug\geometric_figure.pdb
+C:\Users\smirnov.vv\source\repos\geometric_figure\obj\Debug\geometric_figure.csprojAssemblyReference.cache
+C:\Users\smirnov.vv\source\repos\geometric_figure\obj\Debug\geometric_figure.csproj.CoreCompileInputs.cache
+C:\Users\smirnov.vv\source\repos\geometric_figure\obj\Debug\geometric_figure.exe
+C:\Users\smirnov.vv\source\repos\geometric_figure\obj\Debug\geometric_figure.pdb
