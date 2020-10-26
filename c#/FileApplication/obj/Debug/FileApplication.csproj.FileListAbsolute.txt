@@ -1,0 +1,6 @@
+C:\Users\smirnov.vv\source\repos\FileApplication\bin\Debug\FileApplication.exe
+C:\Users\smirnov.vv\source\repos\FileApplication\bin\Debug\FileApplication.pdb
+C:\Users\smirnov.vv\source\repos\FileApplication\obj\Debug\FileApplication.csprojAssemblyReference.cache
+C:\Users\smirnov.vv\source\repos\FileApplication\obj\Debug\FileApplication.csproj.CoreCompileInputs.cache
+C:\Users\smirnov.vv\source\repos\FileApplication\obj\Debug\FileApplication.exe
+C:\Users\smirnov.vv\source\repos\FileApplication\obj\Debug\FileApplication.pdb
