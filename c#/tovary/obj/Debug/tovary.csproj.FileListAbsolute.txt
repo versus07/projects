@@ -1,0 +1,6 @@
+C:\Users\smirnov.vv\source\repos\tovary\bin\Debug\tovary.exe
+C:\Users\smirnov.vv\source\repos\tovary\bin\Debug\tovary.pdb
+C:\Users\smirnov.vv\source\repos\tovary\obj\Debug\tovary.csprojAssemblyReference.cache
+C:\Users\smirnov.vv\source\repos\tovary\obj\Debug\tovary.csproj.CoreCompileInputs.cache
+C:\Users\smirnov.vv\source\repos\tovary\obj\Debug\tovary.exe
+C:\Users\smirnov.vv\source\repos\tovary\obj\Debug\tovary.pdb
