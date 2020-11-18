@@ -1,0 +1,6 @@
+C:\Users\smirnov.vv\source\repos\DictApp\bin\Debug\DictApp.exe
+C:\Users\smirnov.vv\source\repos\DictApp\bin\Debug\DictApp.pdb
+C:\Users\smirnov.vv\source\repos\DictApp\obj\Debug\DictApp.csprojAssemblyReference.cache
+C:\Users\smirnov.vv\source\repos\DictApp\obj\Debug\DictApp.csproj.CoreCompileInputs.cache
+C:\Users\smirnov.vv\source\repos\DictApp\obj\Debug\DictApp.exe
+C:\Users\smirnov.vv\source\repos\DictApp\obj\Debug\DictApp.pdb
