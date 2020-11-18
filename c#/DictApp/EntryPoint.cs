@@ -26,6 +26,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.IO;
 
 
 
@@ -34,6 +35,7 @@ namespace DictApp
 {
     class Program
     {
+        static EnRuDict EnglishDict = new EnRuDict();//Глобальный объект для англо-русского словаря
         static void Main(string[] args)
         {
             Console.WriteLine("====================================");
@@ -42,9 +44,10 @@ namespace DictApp
             Console.WriteLine("Нажмите 1 для работы с Англо-Русским словарем");
             Console.WriteLine("Нажмите 2 для работы с Русско-Английским словарем");
 
-            EnRuDict EnglishDict = new EnRuDict();
+           
 
-            int MainMenu;
+            int MainMenu; //Переменная для выбора, с каким словарем будем работать
+
             MainMenu = Convert.ToInt32(Console.ReadLine());
 
             switch (MainMenu)
@@ -60,9 +63,7 @@ namespace DictApp
                     break;
             }
             
-            
-
-            
+                        
         }
         //Работа с Англо-русским словарем
         static void WorkWithEnRuDict()
@@ -76,11 +77,8 @@ namespace DictApp
             Console.WriteLine("<5>\t Найти слово");
             Console.WriteLine("<6>\t Удалить слово");
 
-            int v;
+            int v; //Переменная выбора режима работы со словарем
             v = Convert.ToInt32(Console.ReadLine());
-
-            
-
             switch (v)
             {
                 case 1:
@@ -91,6 +89,19 @@ namespace DictApp
                 case 2:
                     {
                         //Сохранение словаря
+                        try
+                        {
+                            using (StreamWriter sw = new StreamWriter("@c:\\ENRU.dic", true, System.Text.Encoding.Default))
+                            {
+                                sw.WriteLine("TEST");
+                            }
+                        }
+                        catch (Exception e)
+                        {
+                            Console.WriteLine(e.Message);
+                        }
+                        Console.WriteLine("Запись словаря в файл...");
+                        WorkWithEnRuDict();
                         break;
                     }
                 case 3:
