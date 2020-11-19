@@ -38,19 +38,28 @@ namespace DictApp
         static EnRuDict EnglishDict = new EnRuDict();//Глобальный объект для англо-русского словаря
         static void Main(string[] args)
         {
+            
+            MainMenu();
+            
+                        
+        }
+
+        //Главное меню
+        static void MainMenu()
+        {
+            Console.Clear();
             Console.WriteLine("====================================");
             Console.WriteLine("\tПРОГРАММА  С Л О В А Р Ь");
             Console.WriteLine("====================================");
             Console.WriteLine("Нажмите 1 для работы с Англо-Русским словарем");
             Console.WriteLine("Нажмите 2 для работы с Русско-Английским словарем");
+            Console.WriteLine("Нажмите 3 для выхода из программы");
 
-           
+            int choise; //Переменная для выбора, с каким словарем будем работать
 
-            int MainMenu; //Переменная для выбора, с каким словарем будем работать
+            choise = Convert.ToInt32(Console.ReadLine());
 
-            MainMenu = Convert.ToInt32(Console.ReadLine());
-
-            switch (MainMenu)
+            switch (choise)
             {
                 case 1:
                     WorkWithEnRuDict();
@@ -58,13 +67,19 @@ namespace DictApp
                 case 2:
                     WorkWithRuEnDict();
                     break;
+                case 3:
+                    Environment.Exit(0);
+                    break;
+
                 default:
                     Console.WriteLine("Выберите вариант работы");
+                    System.Threading.Thread.Sleep(3000);
+                    MainMenu();
                     break;
             }
-            
-                        
         }
+
+
         //Работа с Англо-русским словарем
         static void WorkWithEnRuDict()
         {
@@ -76,6 +91,7 @@ namespace DictApp
             Console.WriteLine("<4>\t Добавить слово");
             Console.WriteLine("<5>\t Найти слово");
             Console.WriteLine("<6>\t Удалить слово");
+            Console.WriteLine("<0>\t Вернуться в предыдущее меню");
 
             int v; //Переменная выбора режима работы со словарем
             v = Convert.ToInt32(Console.ReadLine());
@@ -83,24 +99,17 @@ namespace DictApp
             {
                 case 1:
                     {
-                       //Загрузка словаря
+                        //Загрузка словаря
+                        EnglishDict.OpenEnRuDict();
+                        System.Threading.Thread.Sleep(3000);
+                        WorkWithEnRuDict();
                         break;
                     }
                 case 2:
                     {
                         //Сохранение словаря
-                        try
-                        {
-                            using (StreamWriter sw = new StreamWriter("@c:\\ENRU.dic", true, System.Text.Encoding.Default))
-                            {
-                                sw.WriteLine("TEST");
-                            }
-                        }
-                        catch (Exception e)
-                        {
-                            Console.WriteLine(e.Message);
-                        }
-                        Console.WriteLine("Запись словаря в файл...");
+                        EnglishDict.SaveEnRuDict();
+                        System.Threading.Thread.Sleep(3000);
                         WorkWithEnRuDict();
                         break;
                     }
@@ -108,6 +117,8 @@ namespace DictApp
                     {
                         //Печать словаря
                         EnglishDict.PrintEnRuDict();
+                        System.Threading.Thread.Sleep(3000);
+                        WorkWithEnRuDict();
                         break;
                     }
                 case 4:
@@ -128,6 +139,17 @@ namespace DictApp
                         //Удаление слова
                         break;
                     }
+                case 0:
+                    {
+                        //Возврат в главное меню
+                        MainMenu();
+                        break;
+                    }
+                default:
+                    Console.WriteLine("Выберите корректный режим");
+                    System.Threading.Thread.Sleep(3000);
+                    WorkWithEnRuDict();
+                    break;
             }
 
             

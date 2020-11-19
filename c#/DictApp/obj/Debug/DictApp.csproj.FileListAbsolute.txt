@@ -4,3 +4,9 @@ C:\Users\smirnov.vv\source\repos\DictApp\obj\Debug\DictApp.csprojAssemblyReferen
 C:\Users\smirnov.vv\source\repos\DictApp\obj\Debug\DictApp.csproj.CoreCompileInputs.cache
 C:\Users\smirnov.vv\source\repos\DictApp\obj\Debug\DictApp.exe
 C:\Users\smirnov.vv\source\repos\DictApp\obj\Debug\DictApp.pdb
+D:\projects\c#\DictApp\bin\Debug\DictApp.exe
+D:\projects\c#\DictApp\bin\Debug\DictApp.pdb
+D:\projects\c#\DictApp\obj\Debug\DictApp.csprojAssemblyReference.cache
+D:\projects\c#\DictApp\obj\Debug\DictApp.csproj.CoreCompileInputs.cache
+D:\projects\c#\DictApp\obj\Debug\DictApp.exe
+D:\projects\c#\DictApp\obj\Debug\DictApp.pdb
