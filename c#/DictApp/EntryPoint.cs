@@ -117,7 +117,9 @@ namespace DictApp
                     {
                         //Печать словаря
                         EnglishDict.PrintEnRuDict();
-                        System.Threading.Thread.Sleep(3000);
+                        Console.WriteLine("Нажмите любую клавишу...");
+                        Console.ReadKey();
+                        //System.Threading.Thread.Sleep(3000);
                         WorkWithEnRuDict();
                         break;
                     }

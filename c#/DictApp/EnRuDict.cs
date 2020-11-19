@@ -49,7 +49,7 @@ namespace DictApp
         {
             try
             {
-                using (StreamWriter sw = new StreamWriter(@"d:\enru.dic", true, System.Text.Encoding.UTF8))
+                using (StreamWriter sw = new StreamWriter(@"f:\enru.dic", true, System.Text.Encoding.UTF8))
                 {
                     foreach (KeyValuePair<string, string> keyValue in EnRu)
                     {
@@ -70,18 +70,22 @@ namespace DictApp
     public void OpenEnRuDict()
         {
             string str;
-            string[] words;
-            
+            string words_keys;
+            string words_values;
+            int delim;
             try
             {
-                using (StreamReader sw = new StreamReader(@"d:\enru.dic"))
+                using (StreamReader sw = new StreamReader(@"f:\enru.dic"))
                 {
-                    str = sw.ReadToEnd();
-                    words = str.Split(new char[] { ':' });
-                    foreach (string s in words)
+                    while (!sw.EndOfStream)//читаем построчно в цикле, пока не достигнем конца файла
                     {
-                        Console.WriteLine(s);
-                        //EnRu.Add(s)
+                        str = sw.ReadLine();
+                        delim = str.IndexOf(':');//находим позицию двоеточния (разделитель)
+                        words_keys = str.Substring(0, delim);//тут получаем слово до двоеточия
+                        delim++;
+                        words_values = str.Substring(delim, str.Length - delim);//тут получаем слово после двоеточия
+                       EnRu.Add(words_keys, words_values);//добавляем пару "ключ-значение в словарь"
+                        
                     }
                 }
             }
@@ -89,6 +93,7 @@ namespace DictApp
             {
                 Console.WriteLine(e.Message);
             }
+            Console.WriteLine("Словарь загружен");
         }
 }
 }

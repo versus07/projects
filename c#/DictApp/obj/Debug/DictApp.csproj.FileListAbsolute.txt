@@ -10,3 +10,8 @@ D:\projects\c#\DictApp\obj\Debug\DictApp.csprojAssemblyReference.cache
 D:\projects\c#\DictApp\obj\Debug\DictApp.csproj.CoreCompileInputs.cache
 D:\projects\c#\DictApp\obj\Debug\DictApp.exe
 D:\projects\c#\DictApp\obj\Debug\DictApp.pdb
+c:\projects\projects\c#\DictApp\bin\Debug\DictApp.exe
+c:\projects\projects\c#\DictApp\bin\Debug\DictApp.pdb
+c:\projects\projects\c#\DictApp\obj\Debug\DictApp.csprojAssemblyReference.cache
+c:\projects\projects\c#\DictApp\obj\Debug\DictApp.exe
+c:\projects\projects\c#\DictApp\obj\Debug\DictApp.pdb
