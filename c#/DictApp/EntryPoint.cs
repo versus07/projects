@@ -36,6 +36,7 @@ namespace DictApp
     class Program
     {
         static EnRuDict EnglishDict = new EnRuDict();//Глобальный объект для англо-русского словаря
+        static RuEnDict RussianDict = new RuEnDict();//Глобальный объект для русско-английского словаря
         static void Main(string[] args)
         {
             
@@ -101,7 +102,7 @@ namespace DictApp
                     {
                         //Загрузка словаря
                         EnglishDict.OpenEnRuDict();
-                        System.Threading.Thread.Sleep(3000);
+                       // System.Threading.Thread.Sleep(3000);
                         WorkWithEnRuDict();
                         break;
                     }
@@ -134,11 +135,18 @@ namespace DictApp
                 case 5:
                     {
                         //Поиск слова
+                        EnglishDict.SearchEnRuDict();
+                        WorkWithEnRuDict();
                         break;
                     }
                 case 6:
                     {
                         //Удаление слова
+                        EnglishDict.WordEnRuDelete();
+
+                        Console.WriteLine("Нажмите любую клавишу...");
+                        Console.ReadKey();
+                        WorkWithEnRuDict();
                         break;
                     }
                 case 0:
@@ -154,13 +162,7 @@ namespace DictApp
                     break;
             }
 
-            
-
-
-
-            
-
-            
+                     
         }
 
        
@@ -171,6 +173,81 @@ namespace DictApp
         {
             Console.Clear();
             Console.WriteLine("РУССКО-АНГЛИЙСКИЙ СЛОВАРЬ");
+            Console.WriteLine("<1>\t Загрузить словарь");
+            Console.WriteLine("<2>\t Сохранить словарь");
+            Console.WriteLine("<3>\t Печать словаря");
+            Console.WriteLine("<4>\t Добавить слово");
+            Console.WriteLine("<5>\t Найти слово");
+            Console.WriteLine("<6>\t Удалить слово");
+            Console.WriteLine("<0>\t Вернуться в предыдущее меню");
+
+            int v; //Переменная выбора режима работы со словарем
+            v = Convert.ToInt32(Console.ReadLine());
+            switch (v)
+            {
+                case 1:
+                    {
+                        //Загрузка словаря
+                        RussianDict.OpenRuEnDict();
+                        // System.Threading.Thread.Sleep(3000);
+                        WorkWithRuEnDict();
+                        break;
+                    }
+                case 2:
+                    {
+                        //Сохранение словаря
+                        RussianDict.SaveRuEnDict();
+                        System.Threading.Thread.Sleep(3000);
+                        WorkWithRuEnDict();
+                        break;
+                    }
+                case 3:
+                    {
+                        //Печать словаря
+                        RussianDict.PrintRuEnDict();
+                        Console.WriteLine("Нажмите любую клавишу...");
+                        Console.ReadKey();
+                        //System.Threading.Thread.Sleep(3000);
+                        WorkWithRuEnDict();
+                        break;
+                    }
+                case 4:
+                    {
+                        //Добавление слов
+                        RussianDict.WordRuEnAdd();
+                        WorkWithRuEnDict();
+
+                        break;
+                    }
+                case 5:
+                    {
+                        //Поиск слова
+                        RussianDict.SearchRuEnDict();
+                        WorkWithRuEnDict();
+                        break;
+                    }
+                case 6:
+                    {
+                        //Удаление слова
+                        RussianDict.WordRuEnDelete();
+
+                        Console.WriteLine("Нажмите любую клавишу...");
+                        Console.ReadKey();
+                        WorkWithRuEnDict();
+                        break;
+                    }
+                case 0:
+                    {
+                        //Возврат в главное меню
+                        MainMenu();
+                        break;
+                    }
+                default:
+                    Console.WriteLine("Выберите корректный режим");
+                    System.Threading.Thread.Sleep(3000);
+                    WorkWithRuEnDict();
+                    break;
+            }
         }
     }
 
